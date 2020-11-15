@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 django = "*"
+dj-database-url = "*"
+whitenoise = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.8"
